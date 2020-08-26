@@ -94,7 +94,6 @@ a:link {
 }
 
 .hi-container {
-  height: 450px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -288,8 +287,16 @@ footer {
   align-items: center;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .info-page-bg {
+    display: none;
+  }
+
+  .photo {
+    margin: 15px 0;
+  }
+
+  .menu-nav {
     display: none;
   }
 }
