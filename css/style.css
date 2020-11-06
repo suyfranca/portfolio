@@ -230,5 +230,6 @@ li {
       'content '
       'aside '
       'footer ';
+    width: 100vw;
   }
 }
