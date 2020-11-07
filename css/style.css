@@ -238,7 +238,7 @@ li {
   }
 
   .content img {
-    display: none;
+    display: none !important;
   }
 
   .knowledge {
