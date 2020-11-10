@@ -46,7 +46,7 @@ li {
 /* HEADER */
 .menu-bg {
   grid-area: menu;
-  background: linear-gradient(135deg, #fddff9, #d385c8);
+  background: linear-gradient(135deg, #ca6dbe, #a4508b);
   padding: 20px;
 }
 
@@ -82,11 +82,12 @@ li {
 
 .projects {
   grid-area: aside;
-  background: #fafbfc;
+  background: #faf9f9;
   padding: 30px;
 }
 
 .projects h3 {
+  font-size: 1.5em;
   text-align: center;
   width: 100%;
   margin-bottom: 10px;
@@ -102,10 +103,12 @@ li {
   background: #fff;
   box-shadow: 3px 3px 5px rgba(44, 44, 44, 0.15);
   transition: 0.3s ease;
+  font-weight: 700;
 }
 
 .projects li:hover {
-  background: #fddff9;
+  background: #90d6fc;
+  color: #fff;
 }
 
 .project-item p {
@@ -146,7 +149,7 @@ li {
 }
 
 .welcome2 {
-  font-family: 'Special Elite', monospace;
+  font-family: 'Special Elite', 'Courier New', Courier, monospace;
   font-size: 1.5em;
 }
 
@@ -177,8 +180,19 @@ li {
 }
 
 .course h3 {
+  padding: 12px;
+  background-color: #f8f8f8;
+  width: auto;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #2f004f;
+}
+
+.course h3 {
   padding: 10px;
-  border-bottom: 1px solid rgba(44, 44, 44, 0.15);
+  color: #2f004f;
+  /* border-bottom: 1px solid rgba(44, 44, 44, 0.15); */
 }
 
 .course-details {
@@ -209,7 +223,7 @@ li {
 
 .footer {
   grid-area: footer;
-  background: linear-gradient(135deg, #fddff9, #d385c8);
+  background: linear-gradient(135deg, #ca6dbe, #a4508b);
 }
 
 .footer p {
